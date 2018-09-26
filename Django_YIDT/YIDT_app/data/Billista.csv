@@ -1,0 +1,56 @@
+Make;Model;Owner;Color;Year;Gear;Weight;Fuel;Powerkw;Power;Hk/kg;Plate;Img
+AUDI;80;orjan Naslund;Grey;0;Manual;0;Petrol;;0;0;EGG093;
+AUDI;A3 TSQ;orjan Naslund;Black;2000.0;Manual;0;Petrol;132.0;179;0;;
+BMW;X3;Mias bil;Grey;0;Automatic;0;Petrol;;0;0;UNF040;
+BMW;X5;Christopher Engman;White;2010.0;Automatic;2150.0;Diesel;180.0;245;0,114;LCD544;
+BMW;320D;Mias bil;Grey;2015.0;Manual;0;Diesel;140.0;190;0;;
+CHEVROLET;CAMARO;Roadtrip US;Red;2015.0;Automatic;0;Petrol;237.0;322;0;;
+CHEVROLET;S10 PICK UP;Via Stanley Nilsson;White;2002.0;Manual;2270.0;Petrol;90.0;122;0,054;;ID0000014.jpg
+CITROEN;C3;Lars Jacobson;Grey;0;Manual;0;Petrol;;0;0;GWG459;ID0000039.jpg
+CITROEN;BERLINGO;Bengt Klar;Green;0;Manual;0;Petrol;;0;0;;
+FORD;MUSTANG;Michael Hortlund;Red;1970.0;Automatic;1560.0;Petrol;135.0;184;0,118;ANX974;ID0000006.jpg
+FORD;MONDEO;Ulf Gardin;White;2012.0;Manual;1570.0;Diesel;85.0;116;0,074;;ID0000017.jpg
+FORD;FIESTA;Hertz (italy);White;2018.0;Manual;0.0;Petrol;60.40178371687222;81;0;FR077CY;
+HYUNDAI;SANTA FE 2,4 GLS;Johanna Johansson;Multicoloured;2001.0;Manual;1720.0;Petrol;107.0;145;0,085;PAG043;ID0000010.jpg
+IVECO;DAILY;CircleK (Råcksta);White;2016.0;Automatic;3500.0;Diesel;93.0;125;0.03563281714285715;XKO847;
+MAZDA;323 5D 1,8I 16;Daniel Klar;Red;1991.0;Manual;1120.0;Petrol;78.0;106;0,095;;
+MERCEDES;500SL;Emma Sodersten;Black;1990.0;Automatic;1810.0;Petrol;240.0;326;0,18;TCX879;ID0000001.jpg
+MERCEDES;C 220 CDI;Robin Gerdin;Black;1999.0;Automatic;1440.0;Diesel;92.0;125;0,087;TGC087;ID0000012.jpg
+MERCEDES;108 CDI;Ulf Gardin;White;2002.0;Manual;2700.0;Diesel;60.0;82;0,03;;ID0000022.jpg
+MITSUBISHI;OUTLANDER;Via Anna-Klara Nilsson;Grey;0;Manual;0;Petrol;;0;0;;ID0000046.jpg
+NISSAN;PRIMERA;Ulf Gardin;BEIGE;2006.0;Automatic;0;Petrol;;0;0;SLD557;
+NISSAN;MURANO;Ulf Gardin;Blue;2010.0;Automatic;0;Petrol;;0;0;;
+NISSAN;VERSA;Rental US;Red;2016.0;Automatic;0;Petrol;80.0;109;0;;
+NISSAN;PRIMERA;Ulf Gardin;BEIGE;2004.0;Manual;0;Petrol;;0;0;;
+NISSAN;MICRA;Caroline Klar;White;0;Manual;0;Petrol;;0;0;;ID0000047.jpg
+NISSAN;LEAF;Slakting till Parisa, USA resa;Blue;2015.0;Automatic;0;Electric;80.0;109;0;;
+OPEL;OMEGA;Peter Gerdin;Blue;0;Manual;0;Petrol;;0;0;BNH589;
+PEUGEOT;BOXER;Ulf Gardin;White;2006.0;Automatic;0;Petrol;;0;0;BAR117;
+PEUGEOT;508 RXH;Ulf Gardin;White;2012.0;Automatic;1910.0;Hybrid;140.0;190;0,1;;
+RENAULT;MEGAN;Anita Hortlund;Grey;2009.0;Manual;0;Petrol;;0;0;RWW597;
+RENAULT;CLIO;Marta;Green;2009.0;Manual;1010.0;Petrol;55.0;75;0,074;LTZ793;ID0000015.jpg
+RENAULT;LAGUANA;Anita Hortlund;Grey;1999.0;Manual;1340.0;Petrol;88.0;120;0,089;;
+RENAULT;KANGOO;Svensk Cater;Black;2011.0;Manual;2110.0;Diesel;80.0;109;0,052;;
+SAAB;900I;Stanley Nilsson;Blue;0;Manual;0;Petrol;;0;0;GXU204;
+SAAB;9000 2,3T;Carl Sturesson;Red;1995.0;Manual;1520.0;Petrol;147.0;200;0,131;7LMJ754;ID0000004.jpg
+SAAB;9-5 2.3;Tomas Trenneby;Blue;2008.0;Automatic;0;Biofuels ;154.0;209;0;TGN861;ID0000030.jpg
+SKODA;OCTAVIA;Hyrd for fjallen;White;0;Manual;0;Petrol;;0;0;;
+TOYOTA;YARIS;Gudruns;Grey;0;Manual;0;Petrol;;0;0;WRX634;
+TOYOTA;TARAGO;Work and travel;Multicoloured;2008.0;Automatic;0;Petrol;;0;0;;ID0000032.jpg
+TOYOTA;CORROLA;Caroline Klar;Red;1991.0;Manual;0;Petrol;;0;0;;ID0000023.jpg
+VOLVO;S40 1.8;Anita Hortlund;Yellow;2000.0;Manual;1330.0;Petrol;90.0;122;0,092;;ID0000013.jpg
+VOLVO;V70;Via Tomas Trenneby;Black;2001.0;Manual;1610.0;Petrol;103.0;140;0,087;RFG648;
+VOLVO;940;Okand;Blue;1992.0;Manual;0;Petrol;;0;0;;
+VOLVO;854 GLT 2,5;Daniel Sven Evert Edis Edlund;Red;1995.0;Manual;1500.0;Petrol;125.0;170;0,113;RYK561;
+VOLVO;S40 2.0T;Via Stanley Nilsson;Red;1998.0;Manual;1380.0;Petrol;118.0;160;0,116;DJJ335;ID0000009.jpg
+VOLVO;V50;Korskola;Red;0;Manual;0;Petrol;;0;0;;
+VOLVO;244 GL;Olle Jacobsson;White;1988.0;Manual;1380.0;Petrol;85.0;116;0,084;;ID0000016.jpg
+VOLVO;740;Andreas Stromberg;White;0;Manual;0;Petrol;;0;0;;ID0000044.jpg
+VOLVO;S60 R D5;Patrik Gerdin;Black;2001.0;Manual;0;Diesel;119.0;162;0;SYS020;
+VOLVO;V70;Tomas Trenneby;Black;2008.0;Manual;0;Diesel;;0;0;RRH986;
+VOLVO;V70;Tomas Trenneby;Black;2013.0;Manual;0;Diesel;;0;0;PPM786;
+VOLVO;XC90 T8 POLESTAR;Christopher Engman;Black;2016.0;Automatic;0;Hybrid;310.0;421;0;;
+VW;PASSAT;Okand;;2004.0;Manual;0;Petrol;;0;0;;ID0000026.jpg
+VW;NEW BEETLE 1,6;Emma Sodersten;Yellow;2000.0;Manual;1300.0;Petrol;74.0;101;0,077;;ID0000020.jpg
+VW;GOLF CL 1,8 I;Emelie Johansson;Red;1993.0;Manual;1070.0;Petrol;66.0;90;0,084;MGD292;
+VW;SIROCCO;Caroline Hellsten;White;2012.0;Manual;0;Diesel;;0;0;;

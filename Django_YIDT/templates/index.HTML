@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block body_block %}
+
+<div class="container main_container" align="center">
+  <h1><strong>All Cars </strong></h1>
+  <p>Here you will find all the cars you have driven.</p>
+</div>
+
+<div class="container main_container" >
+  {% if Cars%}
+  <table class="table table-dark">
+    <thead>
+      <th>Year</th>
+      <th>Car</th>
+      <th>Owner</th>
+      <th>Effect (hp)</th>
+    </thead>
+    {%for car in Cars%}
+    <tr>
+      <td>{{ car.Year }}</td>
+      <td><strong>{{ car.Make }} {{ car.Model }}</strong></td>
+      <td>{{ car.Owner }}</td>
+      <td>{{ car.Power }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+  {% else %}
+  <p>no cars found</p>
+  {% endif  %}
+</div>
+
+{% endblock %}

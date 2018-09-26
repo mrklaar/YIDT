@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block body_block %}
+
+<div class="container main_container" align="center">
+  <h1>{{Make}} {{Model}}</h1>
+  <img src="/static/images_cars/{{ Img }}" class=" big_img rounded" alt="">
+  <h4>{{Owner}}</h4>
+</div>
+
+<p></p>
+
+<div class="container main_container" align="center">
+  <table class="table table-dark">
+    <thead>
+      <tr>
+        <th scope="col">Specification</th>
+        <th scope="col">Value</th>
+      </tr>
+    </thead>
+    <tr>
+      <tr>
+        <td>Make</td>
+        <td>{{Make}}</td>
+      </tr>
+      <tr>
+        <td>Model</td>
+        <td>{{Model}}</td>
+      </tr>
+      <tr>
+        <td>Owner</td>
+        <td>{{Owner}}</td>
+      </tr>
+      <tr>
+        <td>Color</td>
+        <td>{{Color}}</td>
+      </tr>
+      <tr>
+        <td>Year</td>
+        <td>{{Year}}</td>
+      </tr>
+      <tr>
+        <td>Gear</td>
+        <td>{{Gear}}</td>
+      </tr>
+      <tr>
+        <td>Weight</td>
+        <td>{{Weight}}</td>
+      </tr>
+      <tr>
+        <td>Fuel</td>
+        <td>{{Fuel}}</td>
+      </tr>
+      <tr>
+        <td>Horse power</td>
+        <td>{{Power_hp}}</td>
+      </tr>
+      <tr>
+        <td>Plate</td>
+        <td>{{Plate}}</td>
+      </tr>
+    </tr>
+  </table>
+</div>
+
+  {% endblock %}

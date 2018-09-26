@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block body_block %}
+
+<div class="container main_container">
+<h1>Please Login</h1>
+<form class= "form-group"action="{% url 'YIDT_app:user_login' %}" method="post">
+  {% csrf_token %}
+  <label for="username" >Username:</label>
+  <input class= "form-control" type="text" name="username"  placeholder = "enter username here">
+  <p></p>
+  <label for="password" >Password:</label>
+  <input class= "form-control" type="password" name="password" >
+  <p></p>
+  <input class="btn btn-default" type="Submit" name="" value="Login">
+</form>
+</div>
+
+{% endblock %}

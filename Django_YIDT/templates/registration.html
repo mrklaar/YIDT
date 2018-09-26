@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block body_block %}
+
+<div class="container main_container">
+  {% if registered %}
+    <h1>Thank you for registering!</h1>
+    <h3> <a href="{% url 'YIDT_app:user_login'%}">Go to Login page</a> </h3>
+  {% else %}
+    <h1>Register Here!</h1>
+    <h3>Fill out the form to get started</h3>
+
+    <form  enctype="multipart/form-data" method="post">
+        {% csrf_token %}
+        {{ user_form.as_p }}
+        {{ profile_form.as_p }}
+        <input type="submit" name="" value="Register">
+    </form>
+
+  {% endif %}
+</div>
+
+{% endblock %}

@@ -1,0 +1,78 @@
+
+.big_img{
+  height: 300px;
+  align-self: center;
+}
+
+.top_banner{
+align-items: center;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #EDF2F4; /*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >
+        a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: white; /*BACKGROUND color for active*/
+    background-color: #030033;
+}
+
+.navbar-default {
+    background-color: #2B2D42;
+    border-color: #030033;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    color: #262626;
+    text-decoration: none;
+    background-color: #66CCFF; /*change color of links in drop down here*/
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    text-decoration: none;
+    background-color: silver; /*Change rollover cell color here*/
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white; /*Change active text color here*/
+}
+
+.img_logo {
+  height: inherit;
+  width: inherit;
+}
+
+.img_profile {
+  height: inherit;
+  width: inherit;
+  align-self:
+}
+
+#admin_text {
+  color: white;
+  font-size: 0.5em;
+  align-items: center;
+}
+
+
+body{
+  background-color: #8D99AE;
+  color: Black;
+}
+
+.main_container{
+  background-color: #EDF2F4;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.col-md-6{
+  margin-left: 5px;
+  margin-right: 5px;
+}

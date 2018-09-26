@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<!DOCTYPE HTML>
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block body_block %}
+<div class="container main_container">
+  <div class="jumbotron">
+    <h2><strong>Have you been driving a new car?     Cool!</strong></h2>
+    <p>Add the car to your list by filling out the form below and clicking submit.</p>
+
+    <form method="post">
+      {{form.as_p}}
+      {% csrf_token %}
+      <input type="submit" name="" value="Add Car">
+    </form>
+  </div>
+</div>
+{% endblock %}
